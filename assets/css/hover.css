@@ -1,0 +1,82 @@
+body{
+	background-image: url('cheap_diagonal_fabric.png');
+}
+/*#main{
+	width: 600px;
+	background-color: pink;
+}*/
+#top{
+	background-color: white;
+}
+#yourName{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+	color: white;
+	background-color: #4aaaa5;
+}
+#menu{
+	margin-top: 25px;
+}
+#aboutMe{
+	background-color: white;
+	margin-top: 20px;
+}
+#side{
+	text-align: center;
+	background-color: white;
+	margin: 20px 0px 0px 0px;	
+	padding: 15px 50px 5px 50px;
+}
+a{
+	color: gray;
+	margin: 20px 0px 0px 0px;
+	padding: 0px 16px 0px 0px;
+}
+h1, h2, h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+#footer{
+	height: 60px;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 20px;
+	color: lightgray;
+	background-color: #666666;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	border-top-width: 5px;
+	margin-top: 20px;
+	clear: both;
+}
+.imgHolder {
+    position: relative;
+    float: left;
+    padding: 20px 0px 0px 0px;
+}
+.imgHolder span {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+	top: 70%;
+	height: 30px;
+	background-color: #4aaaa5;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:white;
+	padding-top: 10px;
+}
+.zoomin img { 
+	height: 40px; 
+	width: 40px; 
+	-webkit-transition: all 2s ease; 
+	-moz-transition: all 2s ease; 
+	-ms-transition: all 2s ease; 
+	transition: all 2s ease; 
+} 
+.zoomin img:hover { 
+	width: 50px; 
+	height: 50px;
+}
